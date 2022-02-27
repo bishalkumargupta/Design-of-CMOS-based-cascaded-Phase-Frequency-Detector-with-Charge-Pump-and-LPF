@@ -55,6 +55,7 @@ Fig 2. (a) Cascaded PFD/CP/LPF circuit diagram (b) Transmission gate based DFlip
 <p align="center">
 Simple Charge Pump PLL
 </p></br>
+
 ## Expected waveform
 <p align="center">
 <img src ="https://user-images.githubusercontent.com/86653033/155875851-5accd622-1326-48ef-a9a8-ed6f0b9c7db1.png">
