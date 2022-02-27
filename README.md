@@ -2,16 +2,17 @@
 
 ## Table of Contents
 
-- [Introduction](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#introduction)
-- [Device Characterization](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#device-characterization)
-- [Circuit Design](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#circuit-design)
-- [Simulation Results](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#simulation-results)
-- [Performance Comparison](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#performance-comparison)
-- [Conclusion](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#conclusion)
-- [Author](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#author) 
-- [Acknowledgements](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#acknowledgements)
-- [References](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#references)
-
+- Abstract 
+- Introduction
+- Expected waveform
+- Circuit implementation of PFD block 
+- Circuit implementation of CP + LPF block
+- Circuit implementation of VCO block
+- Simulation Result
+- Conclusion
+- Author
+- Acknowledgements
+- References
 ## Abstract
 CMOS based Phase Frequency Detector and charge
 pump is being Simulated and recorded on 28nm technology. LPF
@@ -50,9 +51,7 @@ Fig 1. (a) Cascaded PFD/CP/LPF circuit diagram (b) Transmission gate based DFlip
 ## Circuit implementation of PFD block.
 This is the CMOS circuit implementation of AND Gate(Fig. (a) and NOR Gate( Fig. (b))
 <p align="center">
- 
-
-<img src ="https://user-images.githubusercontent.com/86653033/155877048-11139395-caa8-4afc-9cb7-968f24b1d0d1.png">
+ <img src ="https://user-images.githubusercontent.com/86653033/155877048-11139395-caa8-4afc-9cb7-968f24b1d0d1.png">
   </p>
 This the D latch(modified) implementation where NOT gate is instantiated after symbolising the design in Synopsys tool</br>
 <br/>
@@ -65,6 +64,7 @@ This the PFD block which is implemented using D Latch and And Gate for providing
 <img src ="https://user-images.githubusercontent.com/86653033/155877443-36e258a4-d65e-4ce1-8f64-b23a9a946abd.png">
 </p>
 
+## Circuit implementation of CP + LPF block.
 </br>This is the circuit implementation of Charge Pump whis is further connected to LPF block</br>
 <p align="center">
 <img src ="https://user-images.githubusercontent.com/86653033/155877668-0f029bb0-786a-4fd6-a104-38a2dcd56c71.png">
@@ -74,6 +74,19 @@ This the PFD block which is implemented using D Latch and And Gate for providing
 <p align="center">
 <img src ="https://user-images.githubusercontent.com/86653033/155877912-5ed679a1-8697-4ca4-8e7f-2ed804bb54b8.png">
 </p></br>
+
+## Circuit implementation of VCO block.
+This is the circuit implementation of VCO block</br>
+<p align="center">
+<img src ="https://user-images.githubusercontent.com/86653033/155882151-acc8208a-9d18-4aea-8266-0aff391108ba.png">
+</p></br>
+This is the cascaded Block of VCO + CP + LPF + PFD blocks and the VCO output is being given to the PFD block as a feedback</br>
+
+<p align="center">
+<img src ="https://user-images.githubusercontent.com/86653033/155882463-f70fd252-fd61-4828-bb0b-ee06e97cf48b.png">
+</p></br>
+
+
 
 
   
