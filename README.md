@@ -65,9 +65,13 @@ Simple Charge Pump PLL
   </p>
 
 ## Circuit implementation of PFD block.
-This is the CMOS circuit implementation of AND Gate(Fig. (a) and NOR Gate( Fig. (b))
+This is the CMOS circuit implementation of AND Gate
 <p align="center">
- <img src ="https://user-images.githubusercontent.com/86653033/155877048-11139395-caa8-4afc-9cb7-968f24b1d0d1.png">
+ <img src ="https://user-images.githubusercontent.com/86653033/155886400-31b7f9bd-24e5-4038-956c-11fe1b0cf324.png">
+  </p></br>
+This is the CMOS circuit implementation of NOR Gate
+<p align="center">
+ <img src ="https://user-images.githubusercontent.com/86653033/155886484-c246b868-9b72-4324-ad08-f874ce78ef8d.png">
   </p>
 This the D latch(modified) implementation where NOT gate is instantiated after symbolising the design in Synopsys tool</br>
 <br/>
