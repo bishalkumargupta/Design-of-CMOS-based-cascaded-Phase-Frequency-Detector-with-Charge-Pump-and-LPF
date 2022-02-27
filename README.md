@@ -104,12 +104,12 @@ This is the cascaded Block of VCO + CP + LPF + PFD blocks and the VCO output is 
 
 
 ## Simulation Results
-Case1:- When Reference clock(CLKA) leads Feedback Clock(CLKB)</br>
+- Case1:- When Reference clock(CLKA) leads Feedback Clock(CLKB)</br>
 <p align="center">
 <img src ="https://user-images.githubusercontent.com/86653033/155878058-63e6187c-8019-433f-af11-beed874268b8.png">
 </p></br>
- Case2:- When CLKA lags CLKB</br>
- <p align="center">
+- Case2:- When CLKA lags CLKB</br>
+ </br><p align="center">
 <img src ="https://user-images.githubusercontent.com/86653033/155878125-98fee578-135e-400f-a002-093a4ce1d658.png">
 </p></br>
 Considering Case1 , when CP and LPF is being cascaded with the PFD block the simulation result is being pfovided</br>
