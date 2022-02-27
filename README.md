@@ -107,6 +107,11 @@ Considering Case1 , when CP and LPF is being cascaded with the PFD block the sim
 <p align="center">
 <img src ="https://user-images.githubusercontent.com/86653033/155879176-d372f11a-0f8d-4b15-855b-d848a26013f6.png">
 </p></br>
+Considering VCO the output of the CPLL is being shown</br>
+<p align="center">
+<img src ="https://user-images.githubusercontent.com/86653033/155882621-1227a6eb-c6c1-449d-bfcf-0d76f8c52a22.png">
+</p></br>
+
 
 
 ## Performance Comparison
