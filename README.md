@@ -113,8 +113,8 @@ Case1:- When Reference clock(CLKA) leads Feedback Clock(CLKB)</br>
 <img src ="https://user-images.githubusercontent.com/86653033/155878125-98fee578-135e-400f-a002-093a4ce1d658.png">
 </p></br>
 Considering Case1 , when CP and LPF is being cascaded with the PFD block the simulation result is being pfovided</br>
-<p align="center">
-<img src ="https://user-images.githubusercontent.com/86653033/155879176-d372f11a-0f8d-4b15-855b-d848a26013f6.png">
+</br><p align="center">
+<img src ="https://user-images.githubusercontent.com/86653033/155884539-e1eec48f-3282-4c4c-8d16-817d6f0cc0a8.png">
 </p></br>
 Considering VCO the output of the CPLL is being shown</br>
 <p align="center">
