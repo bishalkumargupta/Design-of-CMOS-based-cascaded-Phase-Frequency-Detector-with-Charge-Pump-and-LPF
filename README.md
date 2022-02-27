@@ -32,7 +32,7 @@ and AM coherent demodulation analysis and more.
  - Phase Lock Loop (PLL)  is the most important block of any clocking system of circuit design and comprise essential applications which includes synchronization of cock in communication system, RF applications , wireless devices, day to day modern electronic equipments. PLLs consists of many blocks where the major ones are Phase Frequency Detector(PFD), Charge Pump(CP), Low Pass Filter(LPF), Voltage Controled Oscillator(VCO) and Frequency Divider. PFD is the major block of a frequency synthesiser.</br.
  - A PFD compares the two input signals, i.e. reference input and feedback input as shown in Fig. 1. Depending upon the phase difference, PFD generates either UP signal or DOWN signal. This signal drives CP which produces a current pulse with corresponding duty ratio.</br.
  - CP circuit consists of a Pull up and Pull-Down network. Charge pump maintain constant output with a varying voltage which later is used to tune the VCO. In Fig. (3) Inputs “UP” and “Down” control the Switches S1and S2 respectively. A pulse of width dT Up turns S1on for dT sec, availing I1 to charge C1. Vout goes up by dT*I1/C1. With same phenomena, Down pulse gives a drop in Vout. If Up and Down are provided simultaneously, I1flows through S1and S2 as I2, resulting into Vout unchanged.</br>
- - VCO 
+ - The voltage controlled oscillator performance governs many aspects of the performance of the whole phase locked loop or frequency synthesizer. Accordingly careful design is necessary.Like any oscillator, a VCO may be considered as an amplifier and a feedback loop. For the circuit to oscillate the total phase shift around the loop must be 360° and the gain must be unity. In this way signals are fed back round the loop so that they are additive and as a result, any small disturbance in the loop is fed back and builds up.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/86653033/155883134-05e3eee9-1cd6-4960-bb69-840a6aac6893.png">
@@ -121,20 +121,6 @@ Considering VCO the output of the CPLL is being shown</br>
 <img src ="https://user-images.githubusercontent.com/86653033/155882621-1227a6eb-c6c1-449d-bfcf-0d76f8c52a22.png">
 </p></br>
 
-
-
-## Performance Comparison
-
-|               |      [1]      |      [2]      |   This work   |
-|     :---:     |     :---:     |     :---:     |     :---:     |
-|     Vdd (V)   |      5.0      |      1.2      |      1.8      |
-|Frequency (GHz)|     0.433     |      4.0      |     0.45      |
-|Technology (nm)|      700      |      180      |      28       |
-|     Gain      |      3.35     |      1.3      |     1.015     |
-|  Power (mW)   |       3       |      7.1      |      0.54     |
-|Chip Size (mm sq)|       -       |      0.82      |      -     |
-
-The table presents performance comparison with previously done work in literature. A clear trade off between gain and power can be observed here. The chip area can be determined with post layout measurements and is expected to be smaller than higher technology nodes.
 
 ## Conclusion
 
