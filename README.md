@@ -29,15 +29,24 @@ and AM coherent demodulation analysis and more.
 
 ## Introduction
 
-  Phase Lock Loop (PLL)  is the most important block of any clocking system of circuit design and comprise essential applications which includes synchronization of cock in communication system, RF applications , wireless devices, day to day modern electronic equipments. PLLs consists of many blocks where the major ones are Phase Frequency Detector(PFD), Charge Pump(CP), Low Pass Filter(LPF), Voltage Controled Oscillator(VCO) and Frequency Divider. PFD is the major block of a frequency synthesiser.</br> A PFD compares the two input signals, i.e. reference input and feedback input as shown in Fig. 1. Depending upon the phase difference, PFD generates either UP signal or DOWN signal. This signal drives CP which produces a current pulse with corresponding duty ratio.
-  </br>CP circuit consists of a Pull up and Pull-Down network. Charge pump maintain constant output with a varying voltage which later is used to tune the VCO. In Fig. (3) Inputs “UP” and “Down” control the Switches S1and S2 respectively. A pulse of width dT Up turns S1on for dT sec, availing I1 to charge C1. Vout goes up by dT*I1/C1. With same phenomena, Down pulse gives a drop in Vout. If Up and Down are provided simultaneously, I1flows through S1and S2 as I2, resulting into Vout unchanged.
+ - Phase Lock Loop (PLL)  is the most important block of any clocking system of circuit design and comprise essential applications which includes synchronization of cock in communication system, RF applications , wireless devices, day to day modern electronic equipments. PLLs consists of many blocks where the major ones are Phase Frequency Detector(PFD), Charge Pump(CP), Low Pass Filter(LPF), Voltage Controled Oscillator(VCO) and Frequency Divider. PFD is the major block of a frequency synthesiser.</br.
+ - A PFD compares the two input signals, i.e. reference input and feedback input as shown in Fig. 1. Depending upon the phase difference, PFD generates either UP signal or DOWN signal. This signal drives CP which produces a current pulse with corresponding duty ratio.</br.
+ - CP circuit consists of a Pull up and Pull-Down network. Charge pump maintain constant output with a varying voltage which later is used to tune the VCO. In Fig. (3) Inputs “UP” and “Down” control the Switches S1and S2 respectively. A pulse of width dT Up turns S1on for dT sec, availing I1 to charge C1. Vout goes up by dT*I1/C1. With same phenomena, Down pulse gives a drop in Vout. If Up and Down are provided simultaneously, I1flows through S1and S2 as I2, resulting into Vout unchanged.</br>
+ - VCO 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/86653033/155883134-05e3eee9-1cd6-4960-bb69-840a6aac6893.png">
+</p>
+<p align="center">
+Fig 1. Block diagram of basic charge pump PLL
+</p>
 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/86653033/155875626-d3c9baf2-c100-4356-9b3e-5915b943f3ab.png">
 </p>
 <p align="center">
-Fig 1. (a) Cascaded PFD/CP/LPF circuit diagram (b) Transmission gate based DFlipFlop
+Fig 2. (a) Cascaded PFD/CP/LPF circuit diagram (b) Transmission gate based DFlipFlop
 </p>
 
 ## Expected waveform
