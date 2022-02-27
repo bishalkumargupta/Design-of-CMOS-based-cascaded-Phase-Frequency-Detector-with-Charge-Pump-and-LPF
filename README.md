@@ -1,4 +1,4 @@
-# Design of CMOS based cascaded Phase Frequency Detector with Charge Pump and LPF.
+# Design of CMOS based Charge Pump Phase Lock Loop with 28nm Technology
 
 ## Table of Contents
 
@@ -124,7 +124,7 @@ Considering VCO the output of the CPLL is being shown</br>
 
 ## Conclusion
 
-The repository presents the design and simulation of CMOS based 28nm Technoogy for CP block being cased with PFD and LPF Blocks. 
+The repository presents the design and simulation of CMOS based 28nm Technoogy Charg Pump Phase Locked Loop(CPPLL) having a operating frequency of 500MHz with operatibg voltade be 1.5V where the shematic and the waveforms are being produced here.
 
 ## Author
 
