@@ -41,14 +41,20 @@ and AM coherent demodulation analysis and more.
 Fig 1. Block diagram of basic charge pump PLL
 </p>
 
+## Reference Circuit Design
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/86653033/155875626-d3c9baf2-c100-4356-9b3e-5915b943f3ab.png">
 </p>
 <p align="center">
 Fig 2. (a) Cascaded PFD/CP/LPF circuit diagram (b) Transmission gate based DFlipFlop
+</p></br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/86653033/155885824-eb4a0162-1e1c-47dd-b421-b3b4e6995ca6.png">
 </p>
-
+<p align="center">
+Simple Charge Pump PLL
+</p></br>
 ## Expected waveform
 <p align="center">
 <img src ="https://user-images.githubusercontent.com/86653033/155875851-5accd622-1326-48ef-a9a8-ed6f0b9c7db1.png">
